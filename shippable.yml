@@ -30,3 +30,5 @@ script:
  - git --version
  - bundle exec rake
  - echo $test1 and $test2
+
+archive: true
