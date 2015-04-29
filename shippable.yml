@@ -20,6 +20,7 @@ before_install:
  - rvm install $SHIPPABLE_RUBY --verify-downloads 1
  - source ~/.bashrc && ~/.rvm/scripts/rvm && rvm use $SHIPPABLE_RUBY
  
+ 
 install:
  - bundle install --gemfile="Gemfile"
  - ruby -v
