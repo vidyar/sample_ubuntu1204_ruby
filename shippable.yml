@@ -1,7 +1,7 @@
 language: ruby
 
 
-build_image: shippableimages/ubuntu1404_ruby
+build_image: shipimg/ubuntu1404_ruby
 
 
 rvm:
